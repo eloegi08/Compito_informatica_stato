@@ -1,6 +1,6 @@
 header{
     background-color: yellowgreen; /*tipo di colore verde*/
-    font-size: 10px;
+    font-size: 50px;
     font-family: Pacifico, Verdana, Arial, sans-serif;
     text-align: center;
 
@@ -9,7 +9,6 @@ header{
 aside{
     border: 5px solid black;
     text-align: center;
-    height: 300px;
     padding: 5px;
 }
 
