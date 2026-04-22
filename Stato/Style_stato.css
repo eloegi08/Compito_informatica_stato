@@ -1,7 +1,20 @@
+header{
+    background-color: yellowgreen; /*tipo di colore verde*/
+    font-family: 'pacifico', calibri;
+    text-align: center;
+}
 
 
+
+aside{
+    border: 5px solid blank;
+    text-align: center;
+    height: 300px;
+    padding: 5px;
+}
 
 #titolo_stato{
+    font-family: 'arial', calibri;
 
 }
 
