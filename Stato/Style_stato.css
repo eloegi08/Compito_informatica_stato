@@ -7,9 +7,18 @@ header{
 }
 
 aside{
+    right: 20px;
+    width: 150px;
+    height: 100%;
     border: 5px solid black;
-    text-align: center;
+    text-align: left;
     padding: 5px;
+    position: absolute;
+}
+
+article{
+    position: relative;
+    width: 70%;
 }
 
 #titolo_stato{
