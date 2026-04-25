@@ -7,18 +7,26 @@ header{
 }
 
 aside{
-    right: 20px;
+
     width: 150px;
-    height: 100%;
+
     border: 5px solid black;
     text-align: left;
     padding: 5px;
-    position: absolute;
+    float: right;
 }
 
 article{
-    position: relative;
-    width: 70%;
+    width: 80%;
+    text-align: left;
+    word-spacing: 3px;
+    line-height: 2;
+}
+
+h1{
+    text-align: center;
+    color: yellowgreen;
+    font-weight: Bold;
 }
 
 #titolo_stato{
