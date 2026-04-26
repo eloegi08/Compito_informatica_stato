@@ -1,34 +1,43 @@
 header{
-    background-color: yellowgreen; /*tipo di colore verde*/
+    background-color: red; /*tipo di colore verde*/
     font-size: 50px;
     font-family: Pacifico, Verdana, Arial, sans-serif;
     text-align: center;
+    color: white;
 
 }
 
 aside{
-    width: 150px;
+    width: 200px;
+    height: 300px;
     border: 5px solid black;
     text-align: left;
     padding: 5px;
     float: right;
+    top: 40px;
 }
 
 article{
-    width: 80%;
+    width: 85%;
     text-align: left;
     word-spacing: 3px;
     line-height: 2;
+
 }
 
 h1{
     text-align: center;
-    color: yellowgreen;
+    color: red;
     font-weight: Bold;
 }
 
-#titolo_stato{
-    font-family: Arial, Verdana, sans-serif;
+table{
 
 }
+
+/*caption{
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}*/
 
