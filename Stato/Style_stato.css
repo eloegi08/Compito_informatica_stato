@@ -42,9 +42,11 @@ table{
     text-align: left;
     border-spacing: 30px;
     font-size: 20px;
-    width: 100%;
+    width: fit-content; /*larghezza si adatta al contenuto*/
     border-collapse: separate;
     table-layout: fixed;
+    margin: 0 auto; /* per centrare la tabella*/
+    display: block; /* fa adattare la larghezza allo spazio a disposizione */
 }
  /*td{
      vertical-align: middle;
@@ -60,6 +62,12 @@ table{
      height: auto;*/
      margin: 0 auto; /* ← centra l'immagine nella cella */
      object-fit: contain; /* ← mantiene le proporzioni senza tagliare */
+ }
+
+ mark{
+     background: red;
+     color: white;
+     font-weight: bold;
  }
 
 
