@@ -15,16 +15,17 @@ aside{
     padding: 5px;
     float: right;
     top: 40px;
-    margin-left: 20px; /* ← distanza dall'article */
+    margin-left: 20px; /*  distanza dall'article */
 }
 
 article{
-    width: calc(100% - 250px); /* ← lascia spazio all'aside */
+    width: calc(100% - 250px); /*  lascia spazio all'aside */
     text-align: left;
     word-spacing: 3px;
     line-height: 1.3;
-    overflow: hidden; /* ← evita che il contenuto finisca sotto l'aside */
+    overflow: hidden; /*  evita che il contenuto finisca sotto l'aside */
     font-size: 20px;
+    margin: 0 auto;    /* per centrarlo */
 }
 
 h1{
@@ -70,7 +71,13 @@ table{
      font-weight: bold;
  }
 
+body{
+    background-color: beige;
+}
 
+.centrato{
+    text-align: center;
+}
 
 /*caption{
     font-weight: bold;
