@@ -1,0 +1,80 @@
+header{
+    background-color: rgb(192, 57, 43); /*tipo di colore rosso*/
+    font-size: 50px;
+    font-family: Pacifico, Verdana, Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: Bold;
+}
+
+aside{
+    width: 250px;
+    height: 450px;
+    border: 5px solid black;
+    text-align: left;
+    padding: 5px;
+    float: right;
+    top: 40px;
+    margin-left: 20px; /*  distanza dall'article */
+
+}
+
+article{
+    width: calc(100% - 300px); /*  lascia spazio all'aside */
+    text-align: center;
+    word-spacing: 3px;
+    line-height: 1.3;
+    overflow: hidden; /*  evita che il contenuto finisca sotto l'aside */
+
+    margin: 0 auto;    /* per centrarlo */
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(192, 57, 43);
+    font-weight: Bold;
+    font-size: 40px;
+}
+
+
+table{
+    text-align: left;
+    border-spacing: 30px;
+    width: fit-content; /*larghezza si adatta al contenuto*/
+    border-collapse: separate;
+    table-layout: fixed;
+    margin: 0 auto; /* per centrare la tabella*/
+    display: block; /* fa adattare la larghezza allo spazio a disposizione */
+}
+
+
+
+
+
+ img{
+
+     margin: 0 auto; /* ← centra l'immagine nella cella */
+     object-fit: contain; /* ← mantiene le proporzioni senza tagliare */
+ }
+
+ mark{
+     background: rgb(192, 57, 43);
+     color: white;
+     font-weight: bold;
+ }
+
+
+body {
+    background-color: beige;
+    font-size: 25px;
+}
+
+.centrato{
+    text-align: center;
+}
+
+.allineato{
+    max-width: 900px;
+}
+
